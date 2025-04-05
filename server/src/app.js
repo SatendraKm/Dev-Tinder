@@ -2,7 +2,7 @@ const express = require("express");
 const { ConnectDB } = require("./config/database");
 
 const app = express();
-const port = 3000;
+const port = 5000;
 const CookieParser = require("cookie-parser");
 
 app.use(express.json());
